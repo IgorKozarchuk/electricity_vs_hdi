@@ -9,7 +9,7 @@ X = electric_hdi_data["Electricity consumption per capita, kWh/year"]
 Y = electric_hdi_data["HDI"]
 C = electric_hdi_data["Country"]
 
-sns.set(rc={"figure.figsize":(11.7,8.27),
+sns.set(rc={"figure.figsize": (11.7, 8.27),
 			"font.size": 9}) # labels font
 
 sns.set_style("darkgrid")
