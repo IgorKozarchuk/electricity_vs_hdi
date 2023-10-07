@@ -34,7 +34,7 @@ filter_list = ["Argentina", "Bahrain", "Brazil", "China", "Germany", "Iceland", 
 # label points funtion
 def label_points(ax, filter_list):
 	for x in filter_list:
-		i = C[C == x].index[0]
+		i = C[C == x].index[0] # index where item in a C series matches filter list item
 		ax.annotate(x, (X[i], Y[i]))
 
 label_points(ax, filter_list)
