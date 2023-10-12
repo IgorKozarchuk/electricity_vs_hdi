@@ -31,7 +31,7 @@ plt.setp(ax.get_legend().get_texts(), fontsize="8")
 
 filter_list = ["Argentina", "Bahrain", "Brazil", "China", "Germany", "Iceland", "India", "Italy", "Japan", "Niger", "Norway", "Pakistan", "Uganda", "Ukraine", "United States", "Vietnam", "Yemen"]
 
-# label points funtion
+# label points function
 def label_points(ax, filter_list):
 	for x in filter_list:
 		i = C[C == x].index[0] # index where item in a C series matches filter list item
